@@ -21,3 +21,11 @@ console.log(add(5, 10));
 console.log(add("pro", 10));
 // not allowed
 console.log(add("pro", false));
+// ..........................return type..................................
+const pro = (a, b) => {
+    return b + b;
+};
+// allowed
+console.log(pro("pro", "shanto"));
+// not allowed
+console.log(pro(1, "pro"));

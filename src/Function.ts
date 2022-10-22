@@ -38,3 +38,13 @@ console.log(pro("pro", "shanto"));
 
 // not allowed
 console.log(pro(1, "pro"));
+
+// ..............................  function signature ....................................................
+
+let adding: (a: number, b: number) => number;
+
+adding = (y: number, x: number) => {
+  return y + x;
+};
+
+console.log(adding(10, 15));

@@ -29,3 +29,9 @@ const pro = (a, b) => {
 console.log(pro("pro", "shanto"));
 // not allowed
 console.log(pro(1, "pro"));
+// ..............................  function signature ....................................................
+let adding;
+adding = (y, x) => {
+    return y + x;
+};
+console.log(adding(10, 15));
